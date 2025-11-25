@@ -1,0 +1,1 @@
+ÖDEME İŞLEMİ BAŞARILI

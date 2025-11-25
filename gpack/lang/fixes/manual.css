@@ -1,0 +1,441 @@
+.dialogWrapper .manual.dialog #dialogContent {
+    width: 475px;
+    min-height: 525px
+}
+
+.dialogWrapper .manual.dialog #dialogContent table {
+    background-color: transparent;
+    border: 0;
+    color: #333;
+    vertical-align: top
+}
+
+.dialogWrapper .manual.dialog #dialogContent table tr {
+    background-color: transparent;
+    border: 0;
+    color: #333;
+    vertical-align: top
+}
+
+.dialogWrapper .manual.dialog #dialogContent table td {
+    background-color: transparent;
+    border: 0;
+    color: #333;
+    vertical-align: top
+}
+
+.dialogWrapper .manual.dialog #dialogContent table th {
+    background-color: transparent;
+    border: 0;
+    color: #333;
+    vertical-align: top
+}
+
+.dialogWrapper .manual.dialog #dialogContent a.manualBack {
+    font-weight: normal
+}
+
+.dialogWrapper .manual.dialog #dialogContent h1 {
+    color: #333;
+    font-size: 13px
+}
+
+.ltr .dialogWrapper .manual.dialog #dialogContent h1 img {
+    margin-right: 5px;
+    vertical-align: middle
+}
+
+.rtl .dialogWrapper .manual.dialog #dialogContent h1 img {
+    margin-left: 5px;
+    vertical-align: middle
+}
+
+.dialogWrapper .manual.dialog #dialogContent h3 {
+    color: #333;
+    margin: 10px 0 5px 0
+}
+
+.ltr .dialogWrapper .manual.dialog #dialogContent #buildings {
+    width: 474px;
+    float: left;
+    margin-top: 30px
+}
+
+.rtl .dialogWrapper .manual.dialog #dialogContent #buildings {
+    width: 474px;
+    float: right;
+    margin-top: 30px
+}
+
+.dialogWrapper .manual.dialog #dialogContent #buildings H3 {
+    margin: 0 0 10px 0
+}
+
+.dialogWrapper .manual.dialog #dialogContent #buildings H3 img {
+    vertical-align: middle
+}
+
+.ltr .dialogWrapper .manual.dialog #dialogContent #troops {
+    width: 474px;
+    float: left
+}
+
+.rtl .dialogWrapper .manual.dialog #dialogContent #troops {
+    width: 474px;
+    float: right
+}
+
+.dialogWrapper .manual.dialog #dialogContent #troops H3 {
+    margin: 0 0 10px 0
+}
+
+.dialogWrapper .manual.dialog #dialogContent #troops H3 img {
+    vertical-align: middle
+}
+
+.ltr .dialogWrapper .manual.dialog #dialogContent .troopInfoWrapper,
+.ltr .dialogWrapper .manual.dialog #dialogContent .troopDataWrapper {
+    float: left;
+    margin-top: 6px;
+    background-color: #e7e7e7;
+    border-radius: 5px
+}
+
+.rtl .dialogWrapper .manual.dialog #dialogContent .troopInfoWrapper,
+.rtl .dialogWrapper .manual.dialog #dialogContent .troopDataWrapper {
+    float: right;
+    margin-top: 6px;
+    background-color: #e7e7e7;
+    border-radius: 5px
+}
+
+.dialogWrapper .manual.dialog #dialogContent p {
+    margin-top: 0
+}
+
+.dialogWrapper .manual.dialog #dialogContent ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 12px;
+    float: left
+}
+
+.rtl .dialogWrapper .manual.dialog #dialogContent p {
+    margin-top: 0
+}
+
+.ltr .dialogWrapper .manual.dialog #dialogContent ul {
+    margin: 0;
+    padding: 0;
+    padding-right: 12px;
+    float: right
+}
+
+.rtl .dialogWrapper .manual.dialog #dialogContent ul {
+    margin: 0;
+    padding: 0;
+    padding-right: 12px;
+    float: left
+}
+
+.ltr .dialogWrapper .manual.dialog #dialogContent ul li {
+    list-style-type: none;
+    line-height: 23px;
+    width: 221px;
+    float: left;
+    margin-right: 10px
+}
+
+.rtl .dialogWrapper .manual.dialog #dialogContent ul li {
+    list-style-type: none;
+    line-height: 23px;
+    width: 221px;
+    float: right;
+    margin-right: 10px
+}
+
+.dialogWrapper .manual.dialog #dialogContent ul li img {
+    vertical-align: middle
+}
+
+.ltr .dialogWrapper .manual.dialog #dialogContent ul li a {
+    margin-left: 13px
+}
+
+.rtl .dialogWrapper .manual.dialog #dialogContent ul li a {
+    margin-right: 13px
+}
+
+.ltr .dialogWrapper .manual.dialog #dialogContent p.description {
+    float: left;
+    width: 278px;
+    min-height: 130px
+}
+
+.rtl .dialogWrapper .manual.dialog #dialogContent p.description {
+    float: right;
+    width: 278px;
+    min-height: 130px
+}
+
+.ltr .dialogWrapper .manual.dialog #dialogContent img.building {
+    float: right;
+    margin-top: -50px
+}
+
+.rtl .dialogWrapper .manual.dialog #dialogContent img.building {
+    float: left;
+    margin-top: -50px
+}
+
+.dialogWrapper .manual.dialog #dialogContent p.costsHeader {
+    clear: both;
+    margin-bottom: 5px
+}
+
+.dialogWrapper .manual.dialog #dialogContent .duration {
+    display: -ms-inline-grid;
+    display: inline-grid;
+    -ms-grid-columns: auto auto;
+    grid-template-columns: auto auto;
+    margin-top: 5px
+}
+
+.ltr .dialogWrapper .manual.dialog #dialogContent .duration i,
+.ltr .dialogWrapper .manual.dialog #dialogContent .duration svg {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row: 1;
+    grid-row-start: 1;
+    margin-right: 5px;
+    -ms-grid-row-align: center;
+    align-self: center
+}
+
+.rtl .dialogWrapper .manual.dialog #dialogContent .duration i,
+.rtl .dialogWrapper .manual.dialog #dialogContent .duration svg {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row: 1;
+    grid-row-start: 1;
+    margin-left: 5px;
+    -ms-grid-row-align: center;
+    align-self: center
+}
+
+
+.dialogWrapper .manual.dialog #dialogContent .duration span {
+    -ms-grid-column: 2;
+    grid-column-start: 2;
+    -ms-grid-row: 1;
+    grid-row-start: 1;
+    -ms-grid-row-align: center;
+    align-self: center;
+    display: inline-block
+}
+
+.dialogWrapper .manual.dialog #dialogContent .clocks {
+    display: -ms-inline-grid;
+    display: inline-grid;
+    -ms-grid-columns: auto auto;
+    grid-template-columns: auto auto
+}
+
+.dialogWrapper .manual.dialog #dialogContent .clocks i,
+.dialogWrapper .manual.dialog #dialogContent .clocks svg {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row: 1;
+    grid-row-start: 1;
+    margin-right: 5px;
+    -ms-grid-row-align: center;
+    align-self: center
+}
+
+.dialogWrapper .manual.dialog #dialogContent .clocks span {
+    -ms-grid-column: 2;
+    grid-column-start: 2;
+    -ms-grid-row: 1;
+    grid-row-start: 1;
+    -ms-grid-row-align: center;
+    align-self: center;
+    display: inline-block
+}
+
+.ltr .dialogWrapper .manual.dialog #dialogContent div.bigUnitSection {
+    float: right;
+    margin-top: 6px
+}
+
+.rtl .dialogWrapper .manual.dialog #dialogContent div.bigUnitSection {
+    float: left;
+    margin-top: 6px
+}
+
+.dialogWrapper .manual.dialog #dialogContent div.bigUnitSection img {
+    height: 205px;
+    background-repeat: no-repeat;
+    background-position: 0 center
+}
+
+.ltr .dialogWrapper .manual.dialog #dialogContent table#troop_info {
+    float: left;
+    margin: 10px 7px 10px 25px;
+    width: 288px
+}
+
+.rtl .dialogWrapper .manual.dialog #dialogContent table#troop_info {
+    float: right;
+    margin: 10px 7px 10px 25px;
+    width: 288px
+}
+
+.ltr .dialogWrapper .manual.dialog #dialogContent table#troop_info td {
+    width: 25%;
+    text-align: left;
+    padding-right: 3px;
+    padding-left: 0;
+    white-space: nowrap
+}
+
+.rtl .dialogWrapper .manual.dialog #dialogContent table#troop_info td {
+    width: 25%;
+    text-align: right;
+    padding-left: 3px;
+    padding-right: 0;
+    white-space: nowrap
+}
+
+.ltr .dialogWrapper .manual.dialog #dialogContent table#troop_info td img {
+    width: 18px;
+    margin-right: 5px;
+    vertical-align: middle
+}
+
+.rtl .dialogWrapper .manual.dialog #dialogContent table#troop_info td img {
+    width: 18px;
+    margin-left: 5px;
+    vertical-align: middle
+}
+
+.dialogWrapper .manual.dialog #dialogContent table#troop_details {
+    width: 60%;
+    background-color: #fff
+}
+
+.ltr .dialogWrapper .manual.dialog #dialogContent table.troopData {
+    float: left;
+    margin: 10px 7px 10px 25px;
+    width: 288px
+}
+
+.rtl .dialogWrapper .manual.dialog #dialogContent table.troopData {
+    float: right;
+    margin: 10px 7px 10px 25px;
+    width: 288px
+}
+
+.ltr .dialogWrapper .manual.dialog #dialogContent table.troopData th {
+    width: 50%;
+    text-align: left;
+    padding-right: 18px;
+    padding-left: 0
+}
+
+.rtl .dialogWrapper .manual.dialog #dialogContent table.troopData th {
+    width: 50%;
+    text-align: right;
+    padding-left: 18px;
+    padding-right: 0
+}
+
+
+.ltr .dialogWrapper .manual.dialog #dialogContent table.troopData td {
+    width: 50%;
+    text-align: left;
+    padding-right: 18px;
+    padding-left: 0
+}
+
+.rtl .dialogWrapper .manual.dialog #dialogContent table.troopData td {
+    width: 50%;
+    text-align: right;
+    padding-left: 18px;
+    padding-right: 0
+}
+
+.ltr .dialogWrapper .manual.dialog #dialogContent table.troopData td img {
+    width: 18px;
+    margin-right: 5px;
+    vertical-align: middle
+}
+
+.rtl .dialogWrapper .manual.dialog #dialogContent table.troopData td img {
+    width: 18px;
+    margin-left: 5px;
+    vertical-align: middle
+}
+
+.ltr .dialogWrapper .manual.dialog #dialogContent div#t_desc {
+    margin: 15px 0;
+    float: left;
+    width: 100%;
+    clear: both
+}
+
+
+.rtl .dialogWrapper .manual.dialog #dialogContent div#t_desc {
+    margin: 15px 0;
+    float: right;
+    width: 100%;
+    clear: both
+}
+
+.ltr .dialogWrapper .manual.dialog #dialogContent img#big_unit {
+    float: right;
+    width: 150px;
+    height: 120px;
+    margin: -30px 0 0 2px
+}
+
+.rtl .dialogWrapper .manual.dialog #dialogContent img#big_unit {
+    float: left;
+    width: 150px;
+    height: 120px;
+    margin: -30px 0 0 2px
+}
+
+.dialogWrapper .manual.dialog #dialogContent div#prereqs {
+    margin-top: 25px;
+    width: 100%;
+    line-height: 20px;
+    clear: both
+}
+
+.dialogWrapper .manual.dialog #dialogContent .answers {
+    margin-top: 15px
+}
+
+.ltr div.balanceCropBalancePart,
+.ltr div.productionPerHourTotal,
+.ltr div.productionPerHour {
+    width: 304px;
+    float: left
+}
+
+.rtl div.balanceCropBalancePart,
+.rtl div.productionPerHourTotal,
+.rtl div.productionPerHour {
+    width: 304px;
+    float: right
+}
+
+.ltr .dialogWrapper .manual .boxes {
+    float: left;
+    margin-top: 6px;
+}
+
+.rtl .dialogWrapper .manual .boxes {
+    float: right;
+    margin-top: 6px;
+}

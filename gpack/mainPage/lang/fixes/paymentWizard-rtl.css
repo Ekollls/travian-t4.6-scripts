@@ -1,0 +1,172 @@
+.rtl .dialog.paymentShopV3 .headerPlayerInfo {
+    position: absolute;
+    left: 0;
+    top: 30px;
+}
+
+@media screen and (min-width: 621px) {
+    .rtl .dialog.paymentShopV3 .headerPlayerInfo {
+        top: 42px;
+    }
+}
+
+.rtl .dialog.paymentShopV3 .headerPlayerInfo div {
+    float: right;
+}
+.rtl .dialog.paymentShopV3 .headerPlayerInfo .accountBalance, .rtl .dialog.paymentShopV3 div#paymentWizard .accountBalance.v2 {
+    position: relative;
+    top: 0;
+    margin-right: 10px;
+}
+.rtl .dialog.paymentShopV3 .slideArea .arrowL {
+    background: url('../../img_rtl/layout/arrowL-rtl.png') no-repeat 0 -44px;
+}
+
+.rtl .dialog.paymentShopV3 .slideArea .arrowR {
+    background: url('../../img_rtl/layout/arrowR-rtl.png') no-repeat 0 -44px;
+}
+
+.rtl .dialog.paymentShopV3 #packageSlider .slideArea.area2 {
+    position: absolute;
+    left: 0;
+}
+.rtl .dialog.paymentShopV3 #paymentWizardContainer #paymentWizard #packageSlider .slidingContentOuter {
+    width: 90%;
+    overflow: hidden;
+    margin-right: 5%;
+    height: 231px;
+}
+.rtl .dialog.paymentShopV3 #paymentWizardContainer #paymentWizard #packageSlider .slidingContentInner {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 99999%;
+}
+.rtl .dialog.paymentShopV3 #paymentWizardContainer #paymentWizard #packageSlider .slidingContent {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rtl .dialog.paymentShopV3 #paymentWizardContainer #paymentWizard #packageSlider .productsPage {
+    width: 780px;
+    transition-duration: 500ms;
+    position: relative;
+    float: right;
+    display: table;
+    text-align: center;
+}
+.rtl .dialog.paymentShopV3 #paymentWizardContainer #paymentWizard #packageSlider .package,
+.rtl .dialog.paymentShopV3 #smallestPackageData .package {
+    border: solid 3px #DDD9CE;
+    margin-right: 10px;
+    background-color: #faf5e1;
+    position: relative;
+    transition-duration: 500ms;
+    cursor: pointer;
+    opacity: 1;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.dialog.paymentShopV3 #paymentWizardContainer #paymentWizard #packageSlider .fakeProductHelper {
+    height: 210px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.rtl .dialog.paymentShopV3 #smallestPackageData .package.size1 {
+    margin-right: 0;
+    cursor: default;
+}
+.rtl .dialog.paymentShopV3 #paymentWizardContainer #paymentWizard #packageSlider .productsPage .package:nth-child(2) {
+    margin-right: 0 !important;
+}
+.rtl .dialog.paymentShopV3 #paymentWizardContainer #paymentWizard .priceNotificationBox {
+    float: left;
+    padding-top: 5px;
+}
+.rtl .dialog.paymentShopV3 #paymentWizardContainer #paymentWizard #paymentMethodsSlider {
+    width: 550px;
+    box-sizing: border-box;
+    padding: 0 10px 0;
+    min-height: 190px;
+    float: right;
+}
+.rtl .dialog.paymentShopV3 #paymentMethodsSlider .loading {
+    position: absolute;
+    width: 526px;
+    height: 169px;
+    background: url('../../img_rtl/misc/loading.gif') no-repeat center;
+    z-index: 2;
+}
+.rtl .dialog.paymentShopV3 #paymentWizardContainer #paymentWizard #paymentMethodsSlider .slidingContentOuter {
+    margin-right: 40px;
+    width: 454px;
+    height: 170px;
+    overflow: hidden;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.rtl .dialog.paymentShopV3 #paymentWizardContainer #paymentWizard #paymentMethodsSlider .methodsPage {
+    width: 444px;
+    transition-duration: 500ms;
+    position: relative;
+    float: right;
+}
+.rtl .dialog.paymentShopV3 #paymentWizardContainer #paymentWizard #paymentMethodsSlider .methodItem {
+    width: 100px;
+    height: 67px;
+    float: right;
+    margin-bottom: 23px;
+    margin-right: 5px;
+    border: solid 3px #DDD9CE;
+    background-color: #faf5e1;
+    transition-duration: 500ms;
+    text-align: center;
+    cursor: pointer;
+}
+
+.rtl .dialog.paymentShopV3 #paymentWizardContainer #paymentWizard #paymentMethodsSlider .slideArea.area2 {
+    position: absolute;
+    margin-right: 500px;
+}
+
+.rtl .dialog.paymentShopV3 #paymentWizardContainer #paymentWizard #overview {
+    float: right;
+    width: 334px;
+    box-sizing: border-box;
+    padding-right: 15px;
+    padding-left: 9px;
+    position: relative;
+    border-right: solid 3px #DDD9CE;
+}
+
+.rtl .dialog.paymentShopV3 #paymentWizardContainer #paymentWizard #overview .resultBox {
+    width: 100%;
+    min-height: 173px;
+    padding: 10px;
+    border: solid 3px #DDD9CE;
+    background-color: #faf5e1;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.rtl .dialog.paymentShopV3 #paymentWizardContainer #paymentWizard #overview .resultBox td {
+    background-color: transparent;
+    border: none;
+    text-align: right;
+    font-weight: bold;
+    font-size: 130%;
+    padding: 10px 10px 5px;
+}
+
+.rtl .dialog.paymentShopV3 #paymentWizardContainer #paymentWizard #overview .resultBox td:nth-child(2) {
+    text-align: left;
+}
+
+.rtl .dialog.paymentShopV3 #paymentWizardContainer #paymentWizard #overview .resultBox tr:last-of-type td {
+    text-align: left;
+}
+
+.rtl .dialog.paymentShopV3 #paymentWizardContainer #paymentWizard #overview button {
+    text-align: right;
+}

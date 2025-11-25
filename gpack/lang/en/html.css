@@ -1,0 +1,215 @@
+span.coordinatesAligned a span.coordinateX, a span.coordinatePipe, a span.coordinateY {
+    width: 38px;
+    text-align: right;
+    display: inline-block;
+    font-weight: bold;
+    color: #8bc34a;
+}
+
+i.healTime_medium {
+    background-image: url(../../img_ltr/views/buildings/upgradeBuilding/healTime_medium.png);
+    width: 23px;
+    height: 22px;
+}
+
+i.infantryBonusTime_medium {
+    background-image: url(../../img_ltr/views/buildings/upgradeBuilding/infantryBonusTime_medium.png);
+    width: 23px;
+    height: 25px;
+}
+
+div.a2b table.troop_details tbody.cata select.dropdown {
+    margin: 1px 0;
+    min-width: 150px;
+}
+
+button.layoutButton.buildOff div.button-container i {
+    background-position: right -758px;
+}
+
+button.layoutButton.buildOn div.button-container i {
+    background-position: right -800px;
+}
+
+button.layoutButton.resourceOff div.button-container i {
+    background-position: right -885px;
+    left: -2px;
+}
+
+button.layoutButton.resourceOn div.button-container i {
+    background-position: right -928px;
+    left: -2px;
+}
+
+button.layoutButton.hospitalWhite i {
+    background-position: right -964px;
+}
+
+button.layoutButton.hospitalBlack i {
+    background-position: right -1005px;
+}
+
+button.layoutButton.greatBarrackWhite i {
+    background-position: right -252px;
+}
+
+button.layoutButton.greatBarrackBlack i {
+    background-position: right -294px;
+}
+
+button.layoutButton.greatStableWhite i {
+    background-position: right -336px;
+}
+
+button.layoutButton.greatStableBlack i {
+    background-position: right -378px;
+}
+
+div#build.gid27 table td.icon img.artefact_icon_market, div#build.gid27 img.artefact_icon_market {
+    background-position: 0 -285px;
+}
+
+div#build.gid27 img.artefact.image-market {
+    background-image: url(../../lang/img_ltr/artefact/type-market.jpg);
+}
+
+/* Vista de las tropas en las diferentes aldeas */
+div.village3 table tbody .vil {
+    min-width: 100px;
+}
+
+/*  Representa la suma de todos los recursos */
+i.r6Big {
+    background-image: url(../../img/a/resAllBig-ltr.png);
+    width: 25px;
+    height: 21px;
+}
+
+/* Ataque al oasis en la lista de aldeas */
+#sidebarBoxVillagelist .content ul li.atkoasis a img {
+    background-image: url(../../img/layout/icons/attacksColorblind.gif)
+}
+
+/* Nuevas imagenes para actualizacion de Ciudades  */
+#build.gid24 .celebrationsHeader {
+    background-image: url(../../img_ltr/views/buildings/townHall/celebration.jpg);
+    width: 552px;
+    height: 160px;
+}
+
+#build.gid24 .townHallCityView .cityMood {
+    background-image: url(../../img_ltr/views/buildings/townHall/cityMood.jpg);
+    width: 552px;
+    height: 160px;
+}
+
+#build.gid24 .townHallCityView .benefits {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 70px auto;
+    column-gap: 20px;
+    margin: 0 10px;
+}
+
+#build.gid24 .townHallCityView .benefits .illustration.buildingSlots {
+    background-image: url(../../img_ltr/views/buildings/townHall/buildingSlots.png);
+    width: 70px;
+    height: 51px;
+}
+
+#build.gid24 .townHallCityView .benefits .illustration.resourceFields {
+    background-image: url(../../img_ltr/views/buildings/townHall/resourceFields.png);
+    width: 70px;
+    height: 62px;
+}
+
+#build.gid24 .townHallCityView .benefits .illustration.watchTowers {
+    background-image: url(../../img_ltr/views/buildings/townHall/watchTowers.png);
+    width: 70px;
+    height: 70px;
+}
+
+/* Imagen para orientar al usuario el uso de Simulador de Combate externo  */
+#build.gid16 .simulatorCombate {
+    background-image: url(../../img_ltr/views/buildings/rallyPoint/SimCombateKirilloid.jpg);
+    width: 560px;
+    height: 560px;
+}
+
+/* Imagen para navegar a travez del mapa  */
+img.arrow.arrowMap {
+    background-image: url(../../img/map/arrow-40x175.png);
+    width: 56px;
+    height: 36px;
+}
+
+img.arrowUp {
+    background-position: 0 0px;
+}
+
+img.arrowDown {
+    background-position: 0 -48px;
+}
+
+img.arrowLeft {
+    background-position: 0 -94px;
+}
+
+img.arrowRight {
+    background-position: 0 -136px;
+}
+
+.scene i.defenseCavalry_small {
+    background-image: url('../../img_rtl/scenes/General/combat/defenseCavalry_small.png');
+    width: 14px;
+    height: 16px;
+}
+
+.scene i.defenseInfantry_small {
+    background-image: url('../../img_rtl/scenes/General/combat/defenseInfantry_small.png');
+    width: 14px;
+    height: 16px;
+}
+
+body:not(.ie10) .sidebar .sidebarBox .sidebarBoxInnerBox:after {
+    border-style: solid;
+    border-width: 32px;
+    border-image: url("../../img/components/Box/default_border-001.png") 38 53 38 53 fill stretch
+}
+
+body:not(.ie10) .sidebar .sidebarBox .sidebarBoxInnerBox:after {
+    border-style: solid;
+    border-width: 32px;
+    border-image: url("../../img/components/Box/default_border-001.png") 38 53 38 53 fill stretch
+}
+
+div#header:before {
+    background: url("../../img_rtl/layout/headerPattern-001.png")
+}
+
+.sidebar .sidebarBox div.sidebarBoxInnerBox div.content ul li.active {
+    background-color: #C2C2C2;
+}
+
+div#header:after {
+    background-image: linear-gradient(to top, #A2A2A2, #C2C2C2, #D2D2D2);
+}
+
+button.layoutButton:not(background).gold:not(.disabled) div.button-container {
+    background-image: linear-gradient(to bottom, #A2A2A2, #B2B2B2 40%, #C2C2C2 45%, #D2D2D2 85%, #E2E2E2);
+}
+
+div.sidebar div#sidebarBoxHero .heroHealthBarBox, div.sidebar div#sidebarBoxHero .heroXpBarBox {
+    background-color: #A2A2A2;
+}
+
+#servertime {
+    background-color: #2B2B2B;
+    border-right: solid 1px #2B2B2B;
+    border-left: solid 1px #2B2B2B;
+    border-bottom: solid 1px #2B2B2B;
+}
+
+ul#stockBar {
+    background-image: linear-gradient(to top, #A2A2A2, #C2C2C2, #E2E2E2);
+}

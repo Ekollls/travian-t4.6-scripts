@@ -1,0 +1,94 @@
+.dialog.waveBuilderDialog {
+    max-width: 700px;
+}
+
+#waveBuilderDialog .featureContent {
+    position: relative;
+}
+
+#waveBuilderDialog .featureContent p {
+    max-width: 65%;
+    margin: 0;
+}
+
+#waveBuilderDialog .featureContent h3 {
+    margin-bottom: 5px;
+}
+
+#waveBuilderDialog .goldAmount {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.rtl #waveBuilderDialog .goldAmount {
+    font-size: 17px;
+}
+
+#waveBuilderDialog .benefits {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 220px 1fr;
+    grid-template-columns: 220px 1fr;
+}
+
+#waveBuilderDialog .benefits .illustration {
+    background-image: url('../../img_ltr/views/waveBuilderDialog/roman.png');
+    min-height: 437px;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row-align: end;
+    align-self: end;
+}
+
+#waveBuilderDialog .benefits .benefitsList {
+    -ms-grid-column: 2;
+    grid-column-start: 2;
+}
+
+#waveBuilderDialog .benefits .benefitsList h3 {
+    margin-bottom: 5px;
+}
+
+#waveBuilderDialog .benefits .benefitsList h3:not(:first-of-type) {
+    margin-top: 40px;
+}
+
+#waveBuilderDialog .benefits .benefitsList p {
+    margin: 0;
+}
+
+#waveBuilderDialog .benefits .benefitsList p:last-of-type {
+    margin-bottom: 40px;
+}
+
+#waveBuilderDialog .buttonWrapper {
+    text-align: right;
+}
+
+#waveBuilderDialog .buttonWrapper .notice,
+#waveBuilderDialog .buttonWrapper .error {
+    font-weight: bold;
+}
+
+.rtl #waveBuilderDialog .featureContent:before {
+    background-image: url('../../img_rtl/views/waveBuilderDialog/scroll.png');
+    left: 20px;
+}
+
+.rtl #waveBuilderDialog .goldAmount {
+    text-align: left;
+}
+
+.rtl #waveBuilderDialog .goldAmount {
+    font-size: 17px;
+}
+
+.rtl #waveBuilderDialog .benefits .illustration {
+    background-image: url('../../img_rtl/views/waveBuilderDialog/roman.png');
+}
+
+.rtl #waveBuilderDialog .buttonWrapper {
+    text-align: left;
+}
